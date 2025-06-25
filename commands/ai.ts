@@ -19,7 +19,7 @@ const aiCommand: ShadowBot.Command = {
   config: {
     name: "ai",
     description: "Interact with the Gemini API for conversational responses.",
-    usage: "/ai <query>",
+    usage: "$ai <query>",
     nonPrefix: true,
     
   },
