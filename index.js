@@ -26,7 +26,7 @@ const bannedUsersFile = path.join(__dirname, "database", "bannedUsers.json");
 const configFile = path.join(__dirname, "config.json");
 const globalDataFile = path.join(__dirname, "database", "globalData.json");
 let bannedUsers = {};
-let config = { admins: [], moderators: [], developers: [], Prefix: ["/"], botName: "Shadow Garden Bot", mongoUri: null };
+let config = { admins: [], moderators: [], developers: [], Prefix: ["$"], botName: "𝗠𝗮𝘅𝗶𝗺𝗶𝗻 𝗕𝗼𝘁", mongoUri: null };
 global.disabledCommands = new Map();
 process.on("unhandledRejection", console.error.bind(console));
 process.on("exit", () => fs.writeFileSync(globalDataFile, JSON.stringify([...globalData])));
